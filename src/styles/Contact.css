@@ -1,0 +1,506 @@
+.super{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 75vh;
+    flex-direction: column;
+}
+
+.contact{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 10%;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;  
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+}
+
+.contact h2,p{
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.contact-1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 20px;
+    /* border: 2px solid red; */
+    margin-top: 0px;
+}
+
+.contact-1 input{
+    height:35px;
+    padding-left: 20px;
+    /* border-radius: 5px; */
+    font-size: 15px;
+    border: 1px solid rgb(73, 244, 34);
+}
+
+.tickBox-1{
+    padding: 0;
+    /* border: 2px solid red; */
+}
+
+.tickBox-1 input{
+    height: 10px;
+}
+
+.shipping{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 90%;
+}
+
+.shipping h1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 0;
+}
+
+.name{
+   display: flex;
+   flex-direction: row;
+   /* border: 2px solid red; */
+}
+
+.name input{
+    width: 50%;
+    margin: 0;
+    height: 25px;
+    font-size: 15px;
+    padding: 5px;
+    /* border-radius: 5px; */
+    border: 1px solid black;
+    margin-bottom: 3px;
+}
+
+#first-name{
+    margin-right: 5px;
+}
+
+.add-note{
+    height: 25px;
+    font-size: 15px;
+    padding: 5px;
+    /* border-radius: 5px; */
+    border: 1px solid black;
+    margin-bottom: 3px;
+}
+
+#add-note-1{
+    margin-bottom: 3px;
+}
+
+.city{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+ }
+ 
+ .city input,select {
+     width: 33%;
+     margin: 0;
+     height: 25px;
+     font-size: 15px;
+     padding: 5px;
+     /* border-radius: 5px; */
+     border: 1px solid black;
+     margin-bottom: 3px;
+     margin-right: 2px;
+ }
+#select-1{
+    height: auto;
+}
+ .city select{
+    padding: 0;
+ }
+
+ .last{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    
+ }
+
+ .last select{
+    width: 100%;
+    /* height: 25px; */
+    padding: 0;
+ }
+
+ .back-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 15px;
+ }
+
+ .back-btn button{
+    background-color: rgb(73, 244, 34);
+    border: 0;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+ }
+
+ span{
+    text-decoration: none;
+    color: rgb(73, 244, 34);
+    font-weight: bold;
+ }
+
+ .container-2{
+    background-color: whitesmoke;
+    height: 75vh;
+    width: 50%;
+ }
+
+.footer{
+    width: 100%;
+    height: 25vh;
+    background-color: rgba(0, 0, 0, 0.817);
+}
+
+.right-1{
+    height: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+.right-1 img{
+    padding-top: 1%;
+}
+
+.right-11 h2{
+    color:rgb(73, 244, 34) ;
+}
+
+hr{
+    width: 90%;
+}
+
+.right-2{
+    height: 10%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.right-2 input{
+    width: 60%;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.right-2 button{
+    width: 30%;
+    margin: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: rgba(3, 9, 14, 0.308);
+    border-radius: 5px;
+}
+
+.right-3{
+    height: 20%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-right: 5%;
+}
+
+.subtotal h4{
+    margin: 4px;
+    font-weight: 200;
+}
+
+.right-4{
+    height: 36%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/* footer design */
+.footer{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    height: 35vh;
+    background-color: rgb(61, 58, 65);
+    color: white;
+    
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41%;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* height: 150px; */
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    /* gap: 1rem; */
+    /* height: 150px; */
+    
+}
+.footer2 > h3{
+    color: rgb(73, 244, 34);
+    /* padding-bottom: 12px; */
+}
+.footer3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    /* gap: 1rem; */
+    /* height: 150px; */
+}
+.footer3 > h3{
+    color: rgb(73, 244, 34);
+    /* padding-bottom: 5px; */
+}
+
+.footer4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    /* gap: 1rem; */
+    /* height: 150px; */
+}
+.footer4  h3{
+    color: rgb(73, 244, 34);
+    /* padding-bottom: 5px; */
+}
+
+.copyright{
+    /* border: 2px solid red; */
+    /* padding: 15px; */
+    display: flex;
+    gap: 750px;
+    padding-left: 4rem;
+    /* height: 30px; */
+}
+
+@media screen and (max-width:480px) {
+    .navbar{
+        transform: scale(0.8);
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .links{
+        gap: 1rem;
+        margin-right: 2rem;
+    }
+    
+    .super{
+        flex-direction: column;
+    }
+
+    .container{
+        transform: scale(0.8);
+
+    }
+
+    .contact{
+        transform: scale(0.8);
+        display: flex;
+        margin-bottom: 2.5rem;
+        gap: 9rem;
+        width: 24rem;
+        margin-left: -1rem;
+    
+    }
+
+    form{
+        flex-direction: column;
+        display: flex;
+        width: 21rem;
+    }
+    .container-1 form{
+        transform: scale(0.8);
+    }
+
+    .container-2{
+        transform: scale(0.8);
+        margin-top: 12rem;
+        width: 21rem;
+        margin-left: -1rem;
+        height: 30rem;
+    }
+
+    hr{
+        margin-top: 2rem;
+    }
+
+    .right-2 input{
+        height: 1.2rem;
+    }
+    .right-2 button{
+        height: 1.9rem;
+    }
+    .right-11 h2{
+        margin-top: -1rem;
+    }
+
+    .footer{
+        margin-top: -2rem;
+        transform: scale(0.9);
+        height: 8rem;
+    }
+    .footer1{
+        transform: scale(0.6);
+    }
+    .footer2{
+        transform: scale(0.6);
+    }
+    .footer3{
+        transform: scale(0.6);
+    }
+    .footer4{
+        transform: scale(0.6);
+    }
+
+    .copyright{
+        gap: 5rem;
+        margin-left: -3rem;
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:480px) {
+
+    .super{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar{
+        transform: scale(0.8);
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        width: 100%;
+    }
+    .navbar h1{
+        margin-top: 5px;
+    }
+
+    .links{
+        gap: 1rem;
+        margin-right: 2rem;
+    }
+    
+
+    .container{
+        transform: scale(0.8);
+
+    }
+
+    .contact{
+        transform: scale(0.8);
+        display: flex;
+        margin-bottom: 2.5rem;
+        gap: 9rem;
+        width: 24rem;
+        margin-left: -1rem;
+    
+    }
+
+    form{
+        flex-direction: column;
+        display: flex;
+        width: 21rem;
+    }
+    .container-1 form{
+        transform: scale(0.8);
+    }
+
+    .container-2{
+        transform: scale(0.8);
+        /* margin-top: 12rem; */
+        margin-top: -2rem;
+
+        /* width: 25rem; */
+        margin-left: -1rem;
+        height: 30rem;
+    }
+
+    hr{
+        margin-top: 2rem;
+    }
+
+    .right-2 input{
+        height: 1.2rem;
+    }
+    .right-2 button{
+        height: 1.9rem;
+    }
+    .right-11 h2{
+        margin-top: -1rem;
+    }
+
+    .footer{
+        margin-top: -2rem;
+        transform: scale(0.9);
+        height: 8rem;
+    }
+    .footer1{
+        transform: scale(0.6);
+    }
+    .footer2{
+        transform: scale(0.6);
+    }
+    .footer3{
+        transform: scale(0.6);
+    }
+    .footer4{
+        transform: scale(0.6);
+    }
+
+    .copyright{
+        gap: 27rem;
+        /* margin-left: -3rem; */
+        font-size: 0.5rem;
+    }
+}
