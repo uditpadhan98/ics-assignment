@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ics-assignment/static/css/main.0f456ae6.css",
+    "main.js": "/ics-assignment/static/js/main.1665f6b5.js",
+    "index.html": "/ics-assignment/index.html",
+    "main.0f456ae6.css.map": "/ics-assignment/static/css/main.0f456ae6.css.map",
+    "main.1665f6b5.js.map": "/ics-assignment/static/js/main.1665f6b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f456ae6.css",
+    "static/js/main.1665f6b5.js"
+  ]
+}
